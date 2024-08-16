@@ -42,7 +42,7 @@ const Body = () => {
                         const filteredRestaurant = listOfRestaurants.filter(
                             (res) => res.info.name.toLowerCase().includes(searchText.toLowerCase())
                         );
-                        setListOfRestaurant(filteredRestaurant);
+                        setFilteredRestaurant(filteredRestaurant);
                     }}>Search</button>
                 </div>
                 <button 
